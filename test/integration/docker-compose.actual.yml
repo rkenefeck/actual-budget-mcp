@@ -1,9 +1,8 @@
 # Throwaway actual-server for integration tests and spikes. Local only, never deployed.
-# Pinned tag matches the installed @actual-app/api version (26.10.0) and the production
-# servers (R5, R4-Padres) as of 2026-10-08.
+# Pinned tag matches the installed @actual-app/api version (26.11.0).
 services:
   actual:
-    image: actualbudget/actual-server:26.10.0
+    image: actualbudget/actual-server:26.11.0
     ports:
       - "5006:5006"
     tmpfs:
